@@ -35,7 +35,7 @@
 
 // Define base and accent colors
 $base-color: #44318d;
-$base-color-hover: darken($base-color, -10%);
+$base-color-hover: lighten($base-color, 10%);
 
 // Define background colors
 $background: #fff;
