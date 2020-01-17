@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                      I was born in Paris, France, but I also lived in Honk Kong. I went to middle school at the Lycée Français International Victor Segalen. I then moved to New York City and attended high school at the Lycée Français de New York. I now live in Montréal, and I am Senior Undergraduate student at McGill Univesity majoring in Software Engineering and minoring in Mathematics.
+                      I was born in Paris, France, but I also lived in Honk Kong, New York City, and now in Montréal.
                       <br>
                       I am an Machine Learning enthusiast, with a particular interest in Reinforcement Learning.
                       <br>
@@ -170,7 +170,7 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/giphy.gif" style="float:left; margin: 10px;"/>
+                        <img src="images/giphy.gif" style="width: 480px; float: left; margin: 10px;"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -184,8 +184,8 @@
                         <!-- <a href="">Demo</a> | -->
                         <a href="https://github.com/Fournierp/alfred" target="_blank">Repo</a>
                         <div style="margin-top: 10px;">
-                          <img src="https://badgen.net/badge/Stars/5/blue"/>
-                          <img src="https://badgen.net/badge/Forks/2/green"/>
+                          <img src="https://badgen.net/badge/Stars/8/blue"/>
+                          <img src="https://badgen.net/badge/Forks/3/green"/>
                         </div>
                     </div>
                     <!-- End .project-info -->
@@ -200,11 +200,47 @@
                     <div class="project-info">
                         <h3>CAPTCHA - Image Classification</h3>
                         <p>
-                          I developed a Neural Network capable of decyphering CAPTCHAv2 images. The challenge of this Optical Character Recognition is that images have random noise (lines crossing the letters and blur). In conventional Image Classification tasks, images are composed of objects that fall within a unique category, yet here the "categories" are a combination of 5 letters and/or digits so "classes" are highly correlated. To solve this, I built a conventional CNN with a twist. I stacked at the deeper level of the model, 5 branching Convolutional Layers such that each one would be specifically trained to classify a single letter.
+                          I developed a Neural Network capable of decyphering CAPTCHAv2 images.
+                          The challenge of this Optical Character Recognition is that images have random noise (lines crossing the letters and blur).
+                          In conventional Image Classification tasks, images are composed of objects that fall within a unique category.
+                          Yet for this dataset, images have a combination of 5 letters/digits.
+                          This means that there can be a total of pow(36, 5) of CAPTCHA.
+                          Instead of bruteforcing and training a model to learn each one of these combinations, I built a conventional CNN with a twist.
+                          I stacked at the deeper level of the model, 5 branching Convolutional Layers such that each one would be specifically trained to classify a single letter.
                         </p>
 
                         <!-- <a href="">Demo</a> | -->
                         <a href="https://github.com/Fournierp/OCR/tree/master/CAPTCHA" target="_blank">Repo</a>
+                        <div style="margin-top: 10px;">
+                          <img src="https://badgen.net/badge/Stars/3/blue"/>
+                          <img src="https://badgen.net/badge/Forks/1/green"/>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large no-image">
+                  <div class="project-image">
+                      <img src="images/2b827.png" style="padding-left: 50px; padding-right: 50px; padding-bottom: 125px; padding-top: 125px;"/>
+                  </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>FIFA18 - Data Analysis</h3>
+                        <p>
+                          This project is my first hands-on experience with Data Science and Machine Learning.
+                          This Exploratory Data Analysis looks at the correlation between the characteristics of a player and its value on the transfer market and its salary.
+                          I graphed Player value per country, Player value versus his age etc.
+                          Then, I did some Machine Learning Model design to predict player value and wage based on the analysed characteristics using Binary Tree.
+                           To determine the optimal hyperparameters for the library XGBoost, I used a Grid Search. After training the model on the training set, I measured its accuracy on the testing set and compared it with a Baseline Mean Average Error.                        </p>
+                         </p>
+
+                        <!-- <a href="">Demo</a> | -->
+                        <a href="https://github.com/Fournierp/OCR/tree/master/CAPTCHA" target="_blank">Repo</a>
+                        <div style="margin-top: 10px;">
+                          <img src="https://badgen.net/badge/Stars/3/blue"/>
+                          <img src="https://badgen.net/badge/Forks/1/green"/>
+                        </div>
                     </div>
                     <!-- End .project-info -->
                 </div>
