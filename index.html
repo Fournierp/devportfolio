@@ -40,6 +40,9 @@
             <li>
                 <a href="#skills">Skills</a>
             </li>
+	    <li>
+                <a href="#awards">Awards</a>
+            </li>
             <li>
                 <a href="#contact">Contact</a>
             </li>
@@ -74,7 +77,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                      I was born in Paris, France, but I also lived in Honk Kong, New York City, and now in Montréal.
+                      I was born in Paris, France, but I also lived in Honk Kong, New York City and in Montréal.
                       <br>
                       I am an Machine Learning enthusiast, with a particular interest in Reinforcement Learning.
                       <br>
@@ -89,26 +92,26 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="May 2019 - August 2019">
+            <div data-date="May 2019 - September 2019">
                 <h3>Machine Learning Intern</h3>
                 <h4>Dataperformers</h4>
-                <p>
-                  Coming back to the same company as a Machine Learning Intern meant I was given more responsibilities. I worked on a project for advertisement biding both on Data Processing and Modeling. Given the execution time requirements (advertisement bids occur in orders of milliseconds), I designed efficient processing scripts that handled the infinite streams of data using Cython and Numba. The data being high dimensional, imbalanced and dirty I modeled Deep Neural Networks using PyTorch. I trained them on gigabytes of data and achieved great results even for unseen data.
+                <p style="text-align:justify;">
+                  Coming back to Dataperformers as a Machine Learning Intern, I took on more responsibilities. I devised data driven reports for an Ad-Exchange company using t-SNE, PCA and DBSCAN. Given the specificities of the client needs (advertisement bids occur in orders of milliseconds), I designed efficient processing scripts that handled infinite streams of data using Cython and Numba. That data was high dimensional, imbalanced, dirty and encoded. I designed and trained DNN with Pytorch on gigabytes of data for online learning.
                 </p>
             </div>
 
             <div data-date="May 2018 - September 2018">
                 <h3>Machine Learning Intern</h3>
                 <h4>Dataperformers</h4>
-                <p>
-                  As an intern for a leader in the Artificial Intelligence hub that is Montreal, I learned hands on the fast pace of startups and the dynamic field of AI. I designed a Social Media Data Analysis Pipeline in close collaboration with a Senior Machine Learning Engineer. Responsible for automating the Twitter Data Processing, I slashed computation time by writting scalable Python code using tweepy, numpy, pandas etc, I presented progress and ideas weekly and finished the production code a month before the deadline. I surpassed expectations by getting actively involved in Deep Learning Modeling, using Natural Language Processing (Sentiment Analysis) with Tensorflow.
+                <p style="text-align:justify;">
+                  As an intern for a leader in the Artificial Intelligence hub that is Montreal, I learned hands on the fast pace of startups and the dynamic field of ML. I designed a Social Media Data Analysis Pipeline in close collaboration with a Senior Machine Learning Engineer. Responsible for automating the Twitter Data Processing, I slashed computation time by writting scalable Python code using tweepy, numpy, pandas etc, I presented progress and ideas weekly and finished the production code a month before the deadline. I surpassed expectations by getting actively involved in Deep Learning Modeling, using Natural Language Processing (Sentiment Analysis) with Tensorflow.
                 </p>
             </div>
 
             <div data-date="May 2017 - September 2017">
                 <h3>Web Development Intern</h3>
                 <h4>Open Groupe</h4>
-                <p>
+                <p style="text-align:justify;">
                   As a member of a team working in agile web development, I used various technologies: NodeJS, AWS, MongoDB etc. I conducted Unit Testing in Javascript and worked in continuous integration with Git and Jenkins. We developed a platform designed to assist employees to collaborate efficiently and to share information securely.
                 </p>
             </div>
@@ -127,8 +130,15 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
+            <h3> École Polytechnique & HEC Paris </h3>
+            <span class="education-date"> 2020 - 2022</span>
+            <h4> MScT Data Science for Business </h4>
+        </div>
+	<!-- End .education-block -->
+	    
+        <div class="education-block">
             <h3>McGill University</h3>
-            <span class="education-date"> 2015 - Present</span>
+            <span class="education-date"> 2015 - 2020</span>
             <h4>B.A. in Software Engineering with Minor in Mathematics</h4>
             <ul>
                 <li>
@@ -151,6 +161,9 @@
             <ul>
                 <li>
                   Rugby Assistant Coach @ LFNY Sports Department
+                </li>                
+		<li>
+                  Mathematics Tutor @ LFNY
                 </li>
             </ul>
         </div>
@@ -173,19 +186,19 @@
                         <img src="images/giphy.gif" style="width: 480px; float: left; margin: 10px;"/>
                     </div>
                     <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Alfred - Dashboard for Stock Market Analysis</h3>
-                        <p>
+                    <div class="project-info" style="margin-left:490px;">
+                        <h3>Dashboard for Stock Market Analysis</h3>
+                        <p style="text-align:justify">
                           I designed an interactive web app with Plotly’s Dashboard tool using Python.
-                          Then, I integrated live visualizations of recent companies stock price variations and recent articles.
+                          Then, I integrated live visualizations of companies stock price variations and recent articles.
                           Finally, I compiled Deep Q-Network Reinforcement Learning Models for Stock Market decision making that triples profit.
                         </p>
 
                         <!-- <a href="">Demo</a> | -->
-                        <a href="https://github.com/Fournierp/alfred" target="_blank">Repo</a>
+                        <a href="https://github.com/Fournierp/alfred" target="_blank">Git Repo</a>
                         <div style="margin-top: 10px;">
-                          <img src="https://badgen.net/badge/Stars/8/blue"/>
-                          <img src="https://badgen.net/badge/Forks/3/green"/>
+                          <img src="https://badgen.net/badge/Stars/13/blue"/>
+                          <img src="https://badgen.net/badge/Forks/9/green"/>
                         </div>
                     </div>
                     <!-- End .project-info -->
@@ -199,20 +212,17 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>CAPTCHA - Image Classification</h3>
-                        <p>
+                        <p style="text-align:justify;">
                           I developed a Neural Network capable of decyphering CAPTCHAv2 images.
-                          The challenge of this Optical Character Recognition is that images have random noise (lines crossing the letters and blur).
-                          In conventional Image Classification tasks, images are composed of objects that fall within a unique category.
-                          Yet for this dataset, images have a combination of 5 letters/digits.
-                          This means that there can be a total of pow(36, 5) of CAPTCHA.
-                          Instead of bruteforcing and training a model to learn each one of these combinations, I built a conventional CNN with a twist.
-                          I stacked at the deeper level of the model, 5 branching Convolutional Layers such that each one would be specifically trained to classify a single letter.
+			  The first challenge is that images have random noise (lines crossing the letters and blur).
+			  Secondly, there is an enourmous number of categories: images have a combination of 5 letters/digits which means there is a total of pow(36, 5) of categories.
+                          Thus, I stacked 5 branching Convolutional Layers such that each one would be specifically trained to classify a single letter.
                         </p>
 
                         <!-- <a href="">Demo</a> | -->
-                        <a href="https://github.com/Fournierp/OCR/tree/master/CAPTCHA" target="_blank">Repo</a>
+                        <a href="https://github.com/Fournierp/OCR" target="_blank">Git Repo</a>
                         <div style="margin-top: 10px;">
-                          <img src="https://badgen.net/badge/Stars/3/blue"/>
+                          <img src="https://badgen.net/badge/Stars/4/blue"/>
                           <img src="https://badgen.net/badge/Forks/1/green"/>
                         </div>
                     </div>
@@ -222,24 +232,22 @@
 
                 <div class="project shadow-large no-image">
                   <div class="project-image">
-                      <img src="images/2b827.png" style="padding-left: 50px; padding-right: 50px; padding-bottom: 125px; padding-top: 125px;"/>
+                      <img src="https://cdn.images.express.co.uk/img/dynamic/143/590x/FIFA-18-856685.jpg" style="padding-left: 50px; padding-right: 50px; padding-bottom: 125px; padding-top: 125px;"/>
                   </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>FIFA18 - Data Analysis</h3>
-                        <p>
+                        <p style="text-align:justify;">
                           This project is my first hands-on experience with Data Science and Machine Learning.
-                          This Exploratory Data Analysis looks at the correlation between the characteristics of a player and its value on the transfer market and its salary.
-                          I graphed Player value per country, Player value versus his age etc.
+                          The Exploratory Data Analysis and visualizations looks at the correlation between the characteristics of a player (age, skills etc.) and its value on the transfer market and its salary.
                           Then, I did some Machine Learning Model design to predict player value and wage based on the analysed characteristics using Binary Tree.
-                           To determine the optimal hyperparameters for the library XGBoost, I used a Grid Search. After training the model on the training set, I measured its accuracy on the testing set and compared it with a Baseline Mean Average Error.                        </p>
-                         </p>
-
+                          To determine the optimal hyperparameters for the library XGBoost, I used a Grid Search. 
+			 </p>
                         <!-- <a href="">Demo</a> | -->
-                        <a href="https://github.com/Fournierp/OCR/tree/master/CAPTCHA" target="_blank">Repo</a>
+                        <a href="https://github.com/Fournierp/Fifa18" target="_blank">Git Repo</a>
                         <div style="margin-top: 10px;">
                           <img src="https://badgen.net/badge/Stars/3/blue"/>
-                          <img src="https://badgen.net/badge/Forks/1/green"/>
+<!--                           <img src="https://badgen.net/badge/Forks/1/green"/> -->
                         </div>
                     </div>
                     <!-- End .project-info -->
@@ -268,7 +276,28 @@
         </ul>
     </div>
     <!-- End #skills -->
+	
+    <div id="awards">
+        <h2 class="heading">Award</h2>
+        <ul>
+            <li>ImplementAI Hackathon 2019 - 🥈 : Built a Computer Vision tool for web traffic filtering.</li>
+            <br>
+	    <li>NOBE 2019 Business Analytics in Engineering Case Competition - 🥉 : Presented an innovative marketing and data analytics strategy for an Airbnb competitor entering the Montreal market, for a three-day case competition.</li>
+            <br>
+            <li>Code.Jam(2018) Machine Learning Hackathon - 🥈 : Built an AI based Virtual Assistant for Investment, using Natural Language Processing.</li>
 
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div>
+		paul(dot)ag(dot)fournier(at)gmail(dot)com
+        </div>
+    </div>
+    <!-- End #contact -->
+	
     <!-- <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
@@ -280,8 +309,9 @@
             </form>
         </div>
         <!-- End #contact-form -->
-    <!-- </div> --> -->
+    <!-- </div> -->
     <!-- End #contact -->
+
 
     <footer>
         <div class="container">
@@ -306,14 +336,14 @@
                         </li> -->
                         <li>
                             <a href="https://www.linkedin.com/in/fournier-paul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <!-- </li>
-                        <li>
+                        </li>
+			<!--                         <li>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
+                        </li> -->
+			<!--                         <li>
                             <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
+                        </li> -->
+			<!--                         <li>
                             <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </li> -->
                     </ul>
